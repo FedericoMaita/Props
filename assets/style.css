@@ -16,5 +16,13 @@ h1,h2{
 
     padding: 0%;
     text-align: center;
+}
 
+.contenedor-video{
+    border-color: 2px black solid;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+    
 }
