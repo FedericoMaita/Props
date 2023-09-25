@@ -1,10 +1,11 @@
 *{
+    background: rgb(82,79,173);
+    background: linear-gradient(90deg, rgba(82,79,173,1) 41%, rgba(1,157,188,1) 100%);
+
     padding: 0;
     padding-top: 5%;
     margin: 0;
 
-    background: rgb(82,79,173);
-background: linear-gradient(90deg, rgba(82,79,173,1) 41%, rgba(1,157,188,1) 100%);
 }
 
 h1,h2{
@@ -12,17 +13,22 @@ h1,h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     ;
     height: 200wv;
-    width: 200wv;
+    width: 100%;
 
     padding: 0%;
     text-align: center;
 }
 
 .contenedor-video{
-    border-color: 2px black solid;
     align-content: center;
     text-align: center;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+
+    width: 100%;
+    padding:0;
+    margin: 0%;
     
     
 }
