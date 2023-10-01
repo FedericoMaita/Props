@@ -1,11 +1,14 @@
 *{
-    background: rgb(82,79,173);
-    background: linear-gradient(90deg, rgba(82,79,173,1) 41%, rgba(1,157,188,1) 100%);
+    
 
     padding: 0;
-    padding-top: 5%;
+    /* padding-top: 5%; */
     margin: 0;
 
+}
+main{
+    background: rgb(82,79,173);
+    background: linear-gradient(90deg, rgba(82,79,173,1) 41%, rgba(1,157,188,1) 100%);
 }
 
 h1,h2,h3{
